@@ -11,7 +11,7 @@ Time spent: 5 hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.1
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough: <img src="xss1.gif" width="800">
   - [ ] Steps to recreate: 
     - Comment <a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px AAA...[64KB]...AAA> to successfully plan the vulnerability.
 2. Widgets Title Cross-Site Scripting (XSS)
@@ -19,7 +19,7 @@ Time spent: 5 hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.4
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough: <img src="xss2.gif" width="800">
   - [ ] Steps to recreate: 
     - Create a new html widget
     - Insert script in widget text
@@ -30,7 +30,7 @@ Time spent: 5 hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.5
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough: <img src="xss3.gif" width="800">
   - [ ] Steps to recreate: 
     - Select a post to edit
     - Insert script in the post title
